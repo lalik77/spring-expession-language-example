@@ -1,4 +1,4 @@
-# This repo is a Simple example about The Spring Expression Language (SpEL)
+# An example of how The Spring Expression Language (SpEL) works
 
 ## 1-Spring Expression Language 
 According to the official docs, SpEL is quite a powerful expression language which basically supports querying and manipulating the full [object graph](https://en.wikipedia.org/wiki/Object_graph) at runtime.
