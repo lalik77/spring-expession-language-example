@@ -13,7 +13,7 @@ public class SpElBeanA {
     @Value(" #{ 'Learn' + ' ' + 'Spring' } ")
     private String addstr;
 
-    @Value("#{2 == 2}")
+    @Value("#{4 == 4}")
     private boolean equal;
 
     @Value("#{spElBeanB.prop1}")
