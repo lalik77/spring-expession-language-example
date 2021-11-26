@@ -6,10 +6,15 @@ According to the official docs, SpEL is quite a powerful expression language whi
 ## 2-Adding SpEL Support
 SpEL support is provided by spring-expression library which is already present in our starter. In fact, if we inspect the dependency tree of our project, we may see that spring-expression is a part of spring-boot-starter-web. So, we have the nesessary dependency automatically.
 
+![Picture](https://github.com/lalik77/spring-expession-language-example/blob/master/spel-dependency-springboot.jpg)
 
 
 ## 3-Resources
 [Spring Expression Language Guide](https://www.baeldung.com/spring-expression-language)
+
+
+### In this example , two Beans are created and we’ll explore all of our expressions by making good use of the @Value annotation .
+
 
 
 
