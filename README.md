@@ -15,10 +15,17 @@ SpEL support is provided by spring-expression library which is already present i
 
 ### In this example , two Beans are created and we’ll explore all of our expressions by making good use of the @Value annotation .
 
-![Pic](https://github.com/lalik77/spring-expession-language-example/blob/master/Bean%20A.png)
+![BeanA](https://github.com/lalik77/spring-expession-language-example/blob/master/Bean%20A.png)
+
+![BeanB](https://github.com/lalik77/spring-expession-language-example/blob/master/Bean%20B.png)
 
 <br/>
 The value of expressions should naturally, evaluate to 5 ,  we can also add two strings etc 
 
+### In order to check this, we’re going to create a JUnit test 
+![Test](https://github.com/lalik77/spring-expession-language-example/blob/master/Test.png)
 
+### We run the test in debug mode again (with the breakpoint still present), then inspecting the state of the been 
+
+![Debug](https://github.com/lalik77/spring-expession-language-example/blob/master/Debug.png)
 
